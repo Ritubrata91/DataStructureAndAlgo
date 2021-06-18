@@ -27,5 +27,4 @@ public class PriorityQueueExample {
 			System.out.println(itr2.next());
 		}
 	}
-
 }

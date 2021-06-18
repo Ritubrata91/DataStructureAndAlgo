@@ -4,8 +4,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 public class DequeExample {
-	public static void main(final String[] args)
-	{
+	public static void main(final String[] args){
 		final Deque<String> deque = new LinkedList<String>();
 		// Add at the last
 		deque.add("Element 1 (Tail)");
@@ -26,5 +25,4 @@ public class DequeExample {
 		deque.removeLast();
 		System.out.println("Deque after removing first and last: "+ deque);
 	}
-
 }
