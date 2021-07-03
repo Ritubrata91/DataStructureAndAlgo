@@ -13,7 +13,8 @@ public class DequeExample {
 
 		// Add at the first
 		deque.addFirst("Element 2 (Head)");
-		deque.push("Element 4 (Head)");
+		deque.push("Element 4 (Head)"); //Pushes an element at the head of this deque if it is possible to do so immediately without violating capacity
+		//restrictions, throwing an IllegalStateException if no space is currently available.
 		deque.offerFirst("Element 6 (Head)");
 
 		System.out.println(deque + "\n");
@@ -21,9 +22,6 @@ public class DequeExample {
 		System.out.println(deque.peek());  //Retrieves, but does not remove the head of the queue  or returns null if this deque is empty.
 		System.out.println(deque.poll()); //Retrieves and remove the head of the queue  or returns null if this deque is empty.
 		System.out.println(deque.pop()); //Removes and returns the first element of this deque.
-
-		deque.push("Element 7");  //Pushes an element at the head of this deque if it is possible to do so immediately without violating capacity
-		//restrictions, throwing an IllegalStateException if no space is currently available.
 
 		deque.removeFirst();
 		deque.removeLast();
