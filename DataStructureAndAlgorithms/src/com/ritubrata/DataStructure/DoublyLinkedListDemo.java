@@ -1,4 +1,4 @@
-package com.ritubrata.DataStructure.LinkedList;
+package com.ritubrata.DataStructure;
 
 public class DoublyLinkedListDemo {
 

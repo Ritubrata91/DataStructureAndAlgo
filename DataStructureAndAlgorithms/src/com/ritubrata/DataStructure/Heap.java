@@ -1,4 +1,4 @@
-package com.ritubrata.DataStructure.Miscellanious;
+package com.ritubrata.DataStructure;
 
 import java.util.Arrays;
 

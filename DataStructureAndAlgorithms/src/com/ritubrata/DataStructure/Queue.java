@@ -1,4 +1,4 @@
-package  com.ritubrata.DataStructure.Miscellanious;
+package  com.ritubrata.DataStructure;
 
 /**
  * This is an implementation of the Circular Queue

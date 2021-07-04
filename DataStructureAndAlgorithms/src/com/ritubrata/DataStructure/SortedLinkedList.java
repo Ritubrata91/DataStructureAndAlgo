@@ -1,4 +1,4 @@
-package com.ritubrata.DataStructure.LinkedList;
+package com.ritubrata.DataStructure;
 
 public class SortedLinkedList<T extends Comparable<T>> {
 	private Node<T> head;

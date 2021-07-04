@@ -1,4 +1,4 @@
-package  com.ritubrata.DataStructure.Miscellanious;
+package  com.ritubrata.DataStructure;
 
 public class Stack {
 	private final int[] items = new int[100];

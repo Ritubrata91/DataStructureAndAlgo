@@ -1,4 +1,4 @@
-package com.ritubrata.DataStructure.Miscellanious;
+package com.ritubrata.DataStructure;
 
 /**
  * A very simple implementation of a Hash Table DS.
