@@ -1,9 +1,16 @@
 package com.ritubrata.DataStructure;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+
 public class LinkedListDemo {
 
-	public static void main(String[] args) {
-		LinkedList<Integer> integers = new LinkedList<Integer>();
+	public static void main(final String[] args) {
+		final LinkedListExample<Integer> integers = new LinkedListExample<Integer>();
+
+		new LinkedList<>();
+
+		new ArrayList<>();
 
 		integers.addAtStart(5);
 		integers.addAtStart(10);
@@ -14,5 +21,5 @@ public class LinkedListDemo {
 		System.out.println(integers.length());
 		System.out.println(integers.find(120));
 	}
-	
+
 }

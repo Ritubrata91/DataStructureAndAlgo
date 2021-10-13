@@ -1,6 +1,6 @@
 package com.ritubrata.DataStructure;
 
-public class DoubleEndedList<T> extends LinkedList<T> {
+public class DoubleEndedList<T> extends LinkedListExample<T> {
 
 	private Node<T> tail;
 	

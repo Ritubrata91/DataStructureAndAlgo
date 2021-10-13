@@ -1,6 +1,6 @@
 package com.ritubrata.DataStructure;
 
-public class LinkedList<T> {
+public class LinkedListExample<T> {
 
 	private Node<T> head;
 
