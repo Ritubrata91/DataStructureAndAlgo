@@ -21,7 +21,7 @@ public class DequeExample {
 
 		System.out.println(deque.peek());  //Retrieves, but does not remove the head of the queue  or returns null if this deque is empty.
 		System.out.println(deque.poll()); //Retrieves and remove the head of the queue  or returns null if this deque is empty.
-		System.out.println(deque.pop()); //Removes and returns the first element of this deque.
+		System.out.println(deque.pop()); //Removes and returns the first element of this deque. NoSuchElementException - if this deque is empty.
 
 		deque.removeFirst();
 		deque.removeLast();
