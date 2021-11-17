@@ -21,9 +21,9 @@ public class StackExample {
 		result = stk.empty();
 		System.out.println("Is the stack empty? " + result);
 
-		System.out.println("First Peek results into : " + stk.peek());
+		System.out.println("First Peek results into : " + stk.peek()); //does not remove the element
 		System.out.println("Second Peek results into : " + stk.peek());
-		System.out.println("First Pop results into : " + stk.pop());
+		System.out.println("First Pop results into : " + stk.pop()); //remove the element
 		System.out.println("Second Pop results into : " + stk.pop());
 
 		stk.removeAllElements();
