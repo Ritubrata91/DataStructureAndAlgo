@@ -1,32 +1,26 @@
 package com.ritubrata.algorithm.sorting;
 
 
+public class SelectionSorter {
 
-public class SelectionSorter<T> {
-	
-	public void sort(Comparable<T>[] objects) {
-		for (int i=0; i < objects.length-1; i++) {
-			int minIndex = i;
-			for (int j = i+1; j < objects.length; j++) {
-				if (objects[j].compareTo((T) objects[minIndex]) < 0) {
-					minIndex = j;
-				}
-			}
-			Comparable<T> tmp = objects[minIndex];
-			objects[minIndex] = objects[i];
-			objects[i] = tmp;
-		}
-		
-	}
-	
-	public static void main(String[] args) {
-		Circle[] circles = new Circle[]{new Circle(12), new Circle(4), 
-				new Circle(2), new Circle(19), new Circle(6)};
-		SelectionSorter<Circle> sorter = new SelectionSorter<Circle>();
-		sorter.sort(circles);
-		for (int i=0; i < circles.length; i++) {
-			System.out.println(circles[i]);
-		}
-	}
+    public static void selectionSort(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            int minIndex = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] < arr[minIndex]) {
+                    minIndex = j;
+                }
+            }
+            int tmp = arr[minIndex];
+            arr[minIndex] = arr[i];
+            arr[i] = tmp;
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] myIntArray = {4, 3, 7, 2, 11, 0};
+        selectionSort(myIntArray);
+		for (int j : myIntArray) System.out.println(j);
+    }
 
 }
